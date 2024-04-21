@@ -1,0 +1,9 @@
+images = 139 *3*256*256
+
+Class feature statistics:
+features = 150
+features per image = [min = 1, mean = 1.08, max = 2]
+classes = 2
+cls name                                  cls value     images   features    min size   mean size    max size
+Water                                             1         67         77     7336.49   134266.80   434949.30
+Ice                                               2         72         73    10727.44   982599.07   4477588.87

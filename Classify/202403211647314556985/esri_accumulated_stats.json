@@ -1,0 +1,122 @@
+{
+  "Version" : 1,
+  "NumBands" : 3,
+  "TileSizeX" : 256,
+  "TileSizeY" : 256,
+  "NumClasses" : 2,
+  "NumTiles" : 139,
+  "NumTilesAsDouble" : 139,
+  "NextTileIndex" : 736,
+  "OutputFeatures" : true,
+  "MetaDataMode" : "PASCAL_VOC_rectangles",
+  "MinCellSize" : {
+    "x" : 10,
+    "y" : 10,
+    "spatialReference" : {
+      "wkid" : 32622,
+      "latestWkid" : 32622
+    }
+  },
+  "MaxCellSize" : {
+    "x" : 10,
+    "y" : 10,
+    "spatialReference" : {
+      "wkid" : 32622,
+      "latestWkid" : 32622
+    }
+  },
+  "Classes" : [
+    {
+      "ClassValue" : 1,
+      "ClassName" : "Water",
+      "Color" : [
+        0,
+        112,
+        255
+      ]
+    },
+    {
+      "ClassValue" : 2,
+      "ClassName" : "Ice",
+      "Color" : [
+        225,
+        225,
+        225
+      ]
+    }
+  ],
+  "FeatureStats" : {
+    "NumClasses" : 2,
+    "NumImagesTotal" : 139,
+    "NumFeaturesTotal" : 150,
+    "NumImagesPerClass" : [
+      67,
+      72
+    ],
+    "NumFeaturesPerClass" : [
+      77,
+      73
+    ],
+    "NumFeaturesPerImage" : {
+      "Min" : 1,
+      "Max" : 2,
+      "Mean" : 1.079136690647482,
+      "Sum" : 150,
+      "Count" : 139
+    },
+    "FeatureAreaPerClass" : [
+      {
+        "Min" : 7336.4887960547594,
+        "Max" : 434949.29903621576,
+        "Mean" : 134266.79734184055,
+        "Sum" : 10338543.395321723,
+        "Count" : 77
+      },
+      {
+        "Min" : 10727.435015041592,
+        "Max" : 4477588.8712901715,
+        "Mean" : 982599.06633082987,
+        "Sum" : 71729731.842150584,
+        "Count" : 73
+      }
+    ]
+  },
+  "InputRastersProps" : {
+    "RasterCount" : 1,
+    "SensorName" : "Undefined",
+    "BandNames" : [
+      "",
+      "",
+      ""
+    ]
+  },
+  "BandStatsState" : [
+    {
+      "Min" : 1479,
+      "Max" : 10289,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 8057.7284932308012,
+      "M2" : 11512242171478.422,
+      "Num" : 9109504
+    },
+    {
+      "Min" : 2256,
+      "Max" : 10249,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 8430.2750238651788,
+      "M2" : 4507028531663.1035,
+      "Num" : 9109504
+    },
+    {
+      "Min" : 2960,
+      "Max" : 10922,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 9166.036660942249,
+      "M2" : 2981431489687.5962,
+      "Num" : 9109504
+    }
+  ]
+}
