@@ -1,6 +1,16 @@
-# Greenland Project
+# Greenland Project 🏔️
 
-Python notebook of code for Greenland river analysis using ArcticDEMs and ArcGIS
+
+## Analysis of Greenland Lakes: Volumes and Water Coverage 
+* 📚 Riki Itokazu, Professor Behn, Professor Willis
+* 📍 Boston College Data Visualization Lab
+
+
+## Technologies 
+* Python
+* ArcGIS
+* SQL
+
 
 
 * Classification.ipynb -> Using cv2 to detect only blue areas (lakes) in order to calculate the total area that is covered by water
