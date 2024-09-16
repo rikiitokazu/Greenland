@@ -37,7 +37,25 @@ Similarly, we were able to use the elevation models to determine the model. This
 Using unsupervised classification techniques, we were able to determine the total amount of water that covered a region. This is extremely helpful information as it helped us determine at what month(s) did draining occur the most, and also how elevation would play a role in the draining. 
 
 We used a variety of methods:
-1) ArcGIS's built in supervised & unsupervised classification
+1) ArcGIS's built in unsupervised classification
 2) Python cv2 library to detect the range of "blue" colors compared to "non-blue" colors
 3) K-means clustering to cluster an image into pixels and determine which pixels correspond to water
+
+## Repository Structure
+```bash
+├── SlopeAnalysis 
+│   ├── Unsupervised.ipynb 
+│   ├── UnsupervisedWithSig.ipynb 
+│   ├── Kmeans.ipynb 
+│   ├── Vision.ipynb 
+├── Classification 
+│   ├── ElevationDifferences.ipynb 
+│   ├── NorthSlopeAnalysis.ipynb 
+│   ├── SouthSlopeAnalysis.ipynb 
+├── Miscellaneous  
+│   ├── Visualizations 
+│   ├── Data
+│   ├── Pictures 
+└── .gitignore
+```
 
