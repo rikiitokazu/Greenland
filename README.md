@@ -41,8 +41,3 @@ We used a variety of methods:
 2) Python cv2 library to detect the range of "blue" colors compared to "non-blue" colors
 3) K-means clustering to cluster an image into pixels and determine which pixels correspond to water
 
-
-##
-* Classification.ipynb -> Using cv2 to detect only blue areas (lakes) in order to calculate the total area that is covered by water
-* Graphs.ipynb -> Using matplotlib to print the percentage covered by water in different elevations
-* Kmeans.ipynb -> Using k-means clustering algorithm to determine the percentage of area covered by water. Goes through extra layer of enhancement to increase contrast and saturation. Number of clusters = 8. 
