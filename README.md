@@ -34,7 +34,7 @@ Similarly, we were able to use the elevation models to determine the model. This
 | South | August 28, 2022 | 0.01320 ± 0.0002473 km3 |
 
 ## Coverage of Water 
-Using unsupervised classification techniques, we were able to determine the total amount of water that covered a region. This is extremely helpful information as it helped us determine at what month(s) did draining occur the most, and also how elevation would play a role in the draining. 
+Using unsupervised classification techniques, we were able to determine the total amount of water that covered a region. This is extremely helpful information as it helped us determine at what month(s) did draining occur the most, and also how elevation would play a role in the draining. This would also be our fastest method, producing accurate results on 12 images in ~15 seconds, whereas the unsupervised techqiues on the ArcGIS software could take ~5 minutes to run on the same images. 
 
 We used a variety of methods:
 1) ArcGIS's built in unsupervised classification
